@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@import "variables";
+
+* {
+  font-family: $font-family;
+}
+
+h1 {
+  color: $header__color;
+  font-family: $font-family;
+  font-size: 250%;
+}
+h2, h3 {
+  color: $header__color;
+  font-family: $font-family;
+  font-weight: lighter;
+}
+body {
+  margin: 2em;
+}
+body, input[text], button {
+  color: #888;
+  font-family: Cambria, Georgia;
+}
